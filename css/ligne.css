@@ -3,13 +3,18 @@ body {
   background-color: #f4f4f4;
   color: #333;
   text-align: center;
+  margin: 0;
 }
 
 h1 {
   color: #2a6fb0;
 }
 
-/* navbar */
+a {
+  color: #2a6fb0;
+}
+
+/* Navbar */
 nav {
   background-color: #2a6fb0;
   display: flex;
@@ -27,5 +32,45 @@ nav a {
 }
 
 nav a:hover {
+  background-color: #1e5588;
+}
+
+/* Formulaire de contact */
+form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+button {
+  background-color: #2a6fb0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
   background-color: #1e5588;
 }
