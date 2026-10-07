@@ -1,5 +1,9 @@
 # ISRI-DevOps - branche nouvelle-page
 
-Historique de la branche avant le squash :
+## Historique avant le squash
 
-![git log avant squash](log-avant-squash.png)
+![Git log avant squash](log-avant-squash.png)
+
+## Historique après le squash
+
+![Git log après squash](git_log_squash.png)
