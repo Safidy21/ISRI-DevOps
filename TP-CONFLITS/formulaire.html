@@ -3,7 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Inscription</title>
+  <style>
+    .password-valide {
+      color: green;
+      font-weight: bold;
+    }
+
+    .password-invalide {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
 </head>
+
 <body>
   <form id="monFormulaire">
     <div class="form-group">
@@ -40,8 +52,19 @@
       }
 
       submitBtn.disabled = !estValide;
+
+    passwordFeedback.classList.toggle(
+      'password-valide',
+      motDePasse !== '' && estValide 
+    );
+
+    passwordFeedback.classList.toggle(
+      'password-invalide',
+      motDePasse !== '' && !estValide
+    );
+
     });
-</script>
+  </script>
   
 </body>
 </html>
