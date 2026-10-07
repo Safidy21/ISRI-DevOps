@@ -9,6 +9,7 @@
     <div class="form-group">
       <label for="password">Mot de passe</label>
       <input type="password" id="password" required>
+      <p id="passwordFeedback" aria-live="polite"></p>
     </div>
     <button type="submit" id="submitBtn" disabled>S'inscrire</button>
   </form>
@@ -26,5 +27,7 @@
       const estValide = validerMotDePasse(e.target.value);
     });
   </script>
+
+  
 </body>
 </html>
