@@ -21,6 +21,11 @@
     <div class="form-group">
       <label for="password">Mot de passe</label>
       <input type="password" id="password" required>
+      <p>
+        Le mot de passe doit contenir au moins 8 caractères,
+        une lettre, un chiffre et un caractère spécial parmi :
+        . &amp; # _ -
+      </p>
       <p id="passwordFeedback" aria-live="polite"></p>
     </div>
     <button type="submit" id="submitBtn" disabled>S'inscrire</button>
